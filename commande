@@ -1,0 +1,5 @@
+git init    
+git satus 
+git add   <ficher>
+
+git rm --cached  <ficher>        supprimer le add qu on a fait 
