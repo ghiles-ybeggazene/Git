@@ -47,5 +47,29 @@ git reset --soft
 git commit -m " modification du commit 4"  --amend       pour modifier un commit existant 
 
 
+git branch    pour voir la branche la on est 
+
+git log --graph --oneline      pour voir le graphe des branches 
+
+
+git branch   nom      creation d une branche 
+
+
+git checkout nom de branche       pour  deplacer d une branche a une autre 
+
+git merge  nom de branche         faut etre sur la branche ou on veut fusionner et on met le nom de la branche celle qu on veut fusion
+
+git branch -d nom de branche    supprimer une branche 
+
+
+git rebase  nom de la branche       faut etre sur la branche ou on veut fusionner 
+
+
+
+git tag v1.0.0  e34a4e      pour taguer  un commit 
+
+git tag --list   pour voir la liste des tags 
+
+
 
 
