@@ -22,7 +22,18 @@ git log --author " le nom de l'author"     pour voir les commits d'une personne
 
 git log --after="2019-09-16"      filter les commits par date 
 
-git diff              comparer le fichier du travail avec l'index 
 
 
+git diff              comparer le fichier du travail   ====>    l'index 
 
+git diff --cached      comparer l'index   ===>   depot git local repository
+
+git diff HEAD         comparer  le fichier du travail    ====>  depot git local repository
+
+
+git blame  nom du fichier      voir les personnes qui ont modifier le fichier 
+
+
+git reset --hard             pour retourner au dernier commit 
+
+git reset --hard  identifiant du commit      pour retourner au commit
