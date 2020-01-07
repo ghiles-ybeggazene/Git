@@ -36,4 +36,16 @@ git blame  nom du fichier      voir les personnes qui ont modifier le fichier
 
 git reset --hard             pour retourner au dernier commit 
 
-git reset --hard  identifiant du commit      pour retourner au commit
+git reset --hard  e35TF4  identifiant du commit      pour retourner au commit
+
+
+git reset --mixed
+
+git reset --soft 
+
+
+git commit -m " modification du commit 4"  --amend       pour modifier un commit existant 
+
+
+
+
