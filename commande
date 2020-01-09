@@ -73,3 +73,15 @@ git tag --list   pour voir la liste des tags
 
 
 
+git branch --all               pour voir les copies local des  branches distantes 
+
+git fetch                     pour telecharger des copies local des  branches distantes 
+
+git merge FETCH_HEAD  
+
+git pull origin master       pour mettre a jour 
+
+
+
+
+
