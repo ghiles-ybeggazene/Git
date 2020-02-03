@@ -12,6 +12,8 @@ git ls-files --others --exclude-standard    pour voir les fichiers ajouter avec 
 
 git commit -m "message"      pour commiter
 
+git checkout e34fg (id du commit SHA)  pour aller vers le commit 
+
 git log                     pour voir les differents commits  
 
 git log -2                  pour voir les deux dernier commits
