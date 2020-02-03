@@ -1,1 +1,19 @@
+#branche -----------------------------------------------------------------------------------------
+
+$git branch     pour la branche ou on se situe 
+
+$git branch test     creation  de la branche test 
+
+$git checkout test    se positionner sur  la branche test 
+
+$git checkout -b test   creation et positionnement sur la branche test 
+
+
+#merge -------------------------------------------------------------------------------------------
+
+       HEAD   l'endroit ou je me situe 
+
+$git merge test       on se positionne sur la branche master et on fait le merge 
+
+    :x  lors de la modification 
 
