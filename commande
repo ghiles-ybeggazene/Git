@@ -84,11 +84,14 @@ git merge FETCH_HEAD
 git pull origin master       pour mettre a jour 
 
 
+ 
+
+
 
 git blame nomdufichier.extension        qui a fait une modification particulière dans un fichier
 
 git show 05b1233                     renvoie directement les détails du commit recherché 
 
 
-
+ .gitignore             pour ignorer des fichier par exemple les fichier de config
 
