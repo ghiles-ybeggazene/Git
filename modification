@@ -1,0 +1,10 @@
+
+
+
+   $git stash                     mettre de côté vos modifications en cours
+   
+   
+   $git stash pop                 récupérez les modifications que vous aviez mises de côté
+   
+   
+   fork      faire une copie de repository  sur mon compte 
