@@ -46,6 +46,11 @@ git reset --mixed
 git reset --soft 
 
 
+git revert <commit>      commande pour annuler un commit
+
+git reset <commit>       commande pour annuler définitivement un commit
+
+
 git commit -m " modification du commit 4"  --amend       pour modifier un commit existant 
 
 
@@ -94,4 +99,13 @@ git show 05b1233                     renvoie directement les détails du commit 
 
 
  .gitignore             pour ignorer des fichier par exemple les fichier de config
+ 
+ 
+ 
+  cloning : crée une copie complète d’un dépôt sur votre ordinateur local.
+  forking : copie un projet github existant sur votre compte github.
+  
+  
+ Git remote add » crée simplement une entrée dans votre configuration git qui spécifie le nom d’un URL. 
+ Alors que « git clone » crée un nouveau référentiel git en copiant celui existant à l’URI.
 
