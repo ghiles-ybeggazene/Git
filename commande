@@ -108,4 +108,7 @@ git show 05b1233                     renvoie directement les détails du commit 
   
  Git remote add » crée simplement une entrée dans votre configuration git qui spécifie le nom d’un URL. 
  Alors que « git clone » crée un nouveau référentiel git en copiant celui existant à l’URI.
+ 
+ 
+ git remote set-url origin new.git.url/here      changer l'url remote 
 
