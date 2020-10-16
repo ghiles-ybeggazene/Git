@@ -13,6 +13,7 @@ commande Git
 
 * `git diff HEAD`         comparer  le fichier du travail    ====>  depot git local repository
 
+-----------------
 
 ## git Branch
 
@@ -27,3 +28,5 @@ commande Git
 * `git branch -d the_local_branch`     supprimer une branche en locale
 
 * `git branch -m the_local_branch`     on se positionne sur la branche renommer une branche en locale
+
+-----------------
