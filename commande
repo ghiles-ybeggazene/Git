@@ -111,4 +111,6 @@ git show 05b1233                     renvoie directement les détails du commit 
  
  
  git remote set-url origin new.git.url/here      changer l'url remote 
+ 
+ git remote -v 
 
