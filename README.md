@@ -27,3 +27,5 @@ commande Git
 * `git branch -d the_local_branch`     supprimer une branche en locale
 
 * `git branch -m the_local_branch`     on se positionne sur la branche renommer une branche en locale
+
+* `git branch -rd origin/bugfix`
