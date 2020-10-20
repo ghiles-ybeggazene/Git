@@ -51,6 +51,7 @@
 
 * `git remote -v `
 
+ * ` git pull `   Pour fusionner toutes les modifications présentes sur le dépôt distant dans le répertoire de travail local
 
 ## git Branch
 
@@ -69,3 +70,33 @@
 * `git branch -m the_local_branch`     on se positionne sur la branche renommer une branche en locale
 
 * `git branch -rd origin/bugfix`
+
+
+## ENREGISTRER DES FRAGMENTS
+
+ * `git stash`   Enregistre de manière temporaire tous les fichiers sous suivi de version qui ont été modifiés ("remiser son travail")
+
+ * `git stash pop  `  Applique une remise et la supprime immédiatement
+
+ * `git stash list `   Liste toutes les remises
+
+ * `git stash drop `   Supprime la remise la plus récente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
