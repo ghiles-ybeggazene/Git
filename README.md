@@ -1,28 +1,68 @@
-# Git
-commande Git 
+
+## create a new repository on the command line
+
+* `git init`
+* `git commit -m "first commit `
+* `git branch -M main`
+* `git remote add origin https://github.com/ghiles-ybeggazene/add.git`
+* `git push -u origin main `
+
+## push an existing repository from the command line
+
+* `git remote add origin https://github.com/ghiles-ybeggazene/add.git `
+* `git branch -M main `
+* `git push -u origin main `
+
 
 ## git en local
 
+* `git init`    Initialize the local directory as a Git repository
+
 * `git add   <ficher> `     repertoire de travail  ===>  l'index 
+
+ * `git status`   Liste tous les nouveaux fichiers et les fichiers modifiés à commiter
+ 
+ * `git reset [fichier]`      Enleve le fichier de l'index, mais conserve son contenu
 
 * `git commit -m "message"`     l'index  ===>   depot git
 
-* `git diff `             comparer le fichier du travail   ====>    l'index 
+* `git diff `            Montre les modifications de fichier qui ne sont pas encore indexées
 
 * `git diff --cached`      comparer l'index   ===>   depot git local repository
 
 * `git diff HEAD`         comparer  le fichier du travail    ====>  depot git local repository
 
+ * `git diff [premiere-branche]...[deuxieme-branche] `  Montre les différences de contenu entre deux branches
+ 
+* `git log`  Montre l'historique des versions pour la branche courante
+
+
+## REFAIRE DES COMMITS git en local
+
+ * `git reset [commit] `  Annule tous les commits après [commit], en conservant les modifications localement
+
+ * `git reset --hard [commit]`  Supprime tout l'historique et les modifications effectuées après le commit spécifié
+
+
+
+## git en Remote
+
+* `git remote add origin remote repository URL`
+
+* `git remote -v `
+
 
 ## git Branch
 
-* `git branch`     pour la branche ou on se situe 
+* `git branch`     Liste toutes les branches locales dans le dépôt courant
 
 * `git branch test`     creation  de la branche test 
 
 * `git checkout test`    se positionner sur  la branche test 
 
-* `git checkout -b test`   creation et positionnement sur la branche test 
+* `git checkout -b test`   creation et positionnement sur la branche test
+
+ * `git merge [nom-de-branche]`  Combine dans la branche courante l'historique de la branche spécifiée
 
 * `git branch -d the_local_branch`     supprimer une branche en locale
 
