@@ -43,6 +43,8 @@
  * `git reset [commit] `  Annule tous les commits après [commit], en conservant les modifications localement
 
  * `git reset --hard [commit]`  Supprime tout l'historique et les modifications effectuées après le commit spécifié
+ 
+ * `git remote set-url origin new.git.url/here`     changer l'url remote 
 
 
 
